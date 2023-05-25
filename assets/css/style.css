@@ -1,0 +1,288 @@
+:root{
+	--maincolor:#2A3340;
+	--secondarycolor:#2D3C53;
+	--acsencolor:#458FFF;
+	--textcolor:#FFFFFF;
+}
+
+body{
+		background-color: var(--maincolor);
+/*		font-family: Inter;*/
+		color: var(--textcolor);
+}
+
+nav.navbar{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	transition: 0.7s;
+	z-index: 3;
+
+}
+
+.active{
+	color: var(--acsencolor) !important;
+	font-weight: 700;
+
+}
+
+.active:hover{
+	text-shadow:
+    0 0 3px #458FFF,
+    0 0 6px #458FFF;
+}
+
+
+.judul{
+	color: var(--acsencolor) !important;
+	font-weight: 700;
+	text-shadow:
+    0 0 0px #458FFF,
+    0 0 4px #458FFF;
+}
+
+.name-font{
+	font-size: 50px;
+	text-shadow:
+    0 0 0px #458FFF,
+    0 0 2px #458FFF;
+    margin-bottom: 0;
+    transition-duration: 0.7s;
+}
+
+.name-font:hover{
+	font-size: 51px;
+	text-shadow:
+    0 0 2px #458FFF,
+    0 0 6px #458FFF;
+}
+
+.judul:hover{
+	text-shadow:
+    0 0 3px #458FFF,
+    0 0 6px #458FFF;
+}
+
+.btn-custom1{
+	background-color: var(--acsencolor);
+	color: var(--textcolor);
+
+}
+
+
+.btn-custom1:hover{
+	box-shadow: 0px 0px 5px 0px #458FFF;
+	color: var(--textcolor);
+	text-shadow:
+    0 0 1px #fff,
+    0 0 3px #fff;
+}
+
+.btn-custom1:active{
+	opacity: 50%;
+}
+
+.t-sebagai{
+	color: var(--acsencolor);
+	font-size: 20px !important;
+}
+
+.btn-sosmed{
+	height: 40px;
+	width: 40px;
+	background-color: var(--acsencolor);
+	color: var(--textcolor);
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+.btn-sosmed:hover{
+	box-shadow: 0px 0px 5px 0px #458FFF;
+	color: var(--textcolor);
+	text-shadow:
+    0 0 1px #fff,
+    0 0 3px #fff;
+}
+
+.btn-sosmed:active{
+	opacity: 50%;
+
+}
+
+
+.img-hero{
+	height: 60vh;
+	 filter: drop-shadow(0 0 0.25rem rgb(69, 143, 255));
+	 transition-duration: 0.8s;
+}
+
+
+.img-hero:hover{
+	height: 65vh;
+	 filter: drop-shadow(0 0 0.85rem rgb(69, 143, 255));
+	 
+}
+
+.h-hero{
+	height: 85vh;
+}
+
+.t-biru{
+	color: var(--acsencolor);
+
+}
+
+
+.bg-hero{
+	min-height: 100vh;
+	font-size: 17px;
+	background-image: url(../img/bg/1.png);
+	background-size:cover;
+	background-repeat: no-repeat;
+	padding-top: 80px;
+	height: fit-content;
+}
+
+.bg-2{
+	background-color: var(--secondarycolor);
+}
+
+.bg-1{
+	background-color: var(--maincolor);
+}
+
+.img-about{
+	border-radius: 10px;
+	border: 5px solid;
+	box-shadow: 0px 0px 12px 0px var(--acsencolor);
+	transition-duration: 0.7s;
+}
+
+.img-about:hover{
+	box-shadow: 0px 0px 20px 0px var(--acsencolor);
+	
+}
+
+.journey-kurung{
+	border-radius: 15px;
+	border: 2px solid;
+	border-color: var(--acsencolor);
+	box-shadow: 0px 0px 5px 0px var(--acsencolor);
+}
+
+.img-porto{
+	border-radius: 10px;
+	opacity: 70%;
+	transition-duration: 0.5s;
+}
+
+.img-porto:hover{
+	opacity: 100%;
+}
+
+input{
+	background-color: transparent;
+	color: var(--textcolor);
+}
+
+textarea{
+	background-color: transparent;
+	color: var(--textcolor);
+	height: 50vh;
+}
+
+
+
+@media only screen and (max-width: 980px) {
+
+.judul{
+	display: none;
+}
+	.bg-hero{
+		height: 140vh;
+	}
+  .media-tengah{
+  	text-align: center;
+  	font-size: 12px;
+  }
+
+  .name-font{
+  	font-size: 40px;
+  }
+
+  .img-hero{
+  	height: 300px;
+  }
+
+  .img-hero:hover{
+  	height: 350px;
+  }
+
+  .name-font{
+	font-size: 40px;
+	text-shadow:
+    0 0 0px #458FFF,
+    0 0 2px #458FFF;
+    margin-bottom: 0;
+    transition-duration: 0.7s;
+}
+
+.name-font:hover{
+	font-size: 41px;
+	text-shadow:
+    0 0 2px #458FFF,
+    0 0 6px #458FFF;
+}
+
+.t-sebagai{
+	font-size: 13px !important;
+	color: var(--acsencolor);
+}
+
+ 
+}
+
+@media only screen and (max-width: 455px) {
+	.bg-hero{
+		height: 140vh;
+	}
+	 .img-hero{
+  	height: 300px;
+  }
+
+  .name-font{
+	font-size: 30px;
+	text-shadow:
+    0 0 0px #458FFF,
+    0 0 2px #458FFF;
+    margin-bottom: 0;
+    transition-duration: 0.7s;
+	}
+
+	.name-font:hover{
+		font-size: 31px;
+		text-shadow:
+	    0 0 2px #458FFF,
+	    0 0 6px #458FFF;
+	}
+
+	.bb-btn{
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	  .img-hero{
+  	height: 250px;
+	  }
+
+	  .img-hero:hover{
+	  	height: 300px;
+	  }
+	}
+
+@media only screen and (max-width: 444px) {
+	.bg-hero{
+		height: 145vh;
+	}
+}
