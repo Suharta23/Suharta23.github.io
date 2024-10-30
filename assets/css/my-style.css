@@ -1,8 +1,4 @@
 
-*, *::before, *::after {
-    box-sizing: border-box;
-}
-
 
 .btn-main{
 	background-color: var(--acsen-color) !important;
@@ -40,7 +36,6 @@ body{
     background-color: var(--main-color);
 	overflow-x: hidden;
 }
-
 
 .nav-full{
 	background-color: var(--main-transparent);
@@ -82,10 +77,6 @@ body{
 	font-size: 60px;
 }
 
-.hero, .education .isi, .timeline {
-    width: 100%;
-    overflow-x: hidden;
-}
 
 .menu-hp{
 
@@ -201,10 +192,8 @@ a{
 		bottom: 0px;
 		z-index: 3;
 		color: var(--text-color) !important;
-		width: 100%;
-		overflow-x: hidden;
 	}
-	
+
 	.menu-kecil{
 		text-decoration: none !important;
 		color: var(--text-color) !important;
@@ -224,11 +213,6 @@ a{
 		justify-content: start;
 		padding-left: 15px;
 	}
-
-	.education .untuktext {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
 
 	.education .untuktext{
 		width: 80vw;
