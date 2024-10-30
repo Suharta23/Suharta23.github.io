@@ -3,233 +3,266 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" href="assets/img/profile/hero.png">
-	<title>Suharta - Portofolio</title>
-	<!-- bootstrap css -->
-	<link rel="stylesheet" type="text/css" href="assets/bootstrap/css/bootstrap.min.css">
-	<!-- my style -->
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<!-- font aweasome -->
-	<link rel="stylesheet" type="text/css" href="assets/fontaweasome/css/all.css">
-</head>
+	<title>Suharta Portofolio</title>
+	<link rel="stylesheet" href="assets/css/aos.css">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/icons/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="assets/css/my-style.css">
 
-<body class="text-white"  id="home">
-	<!-- navbar -->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-transparant pt-4" id="navbar">
-	  <div class="container col-lg-9 mb-3">
-	  	<div>
-	  		<a class="navbar-brand judul" href="#">SUHARTA</a>
-	  	</div>
-	    <div>
-	    	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-	      	<span class="navbar-toggler-icon"></span>
-		    </button>
-		    <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
-		      <div class="navbar-nav">
-		        <a class="nav-link" href="#home">Home</a>
-		        <a class="nav-link" href="#about">About</a>
-		        <a class="nav-link" href="#education">Education</a>
-		        <a class="nav-link" href="#skills">Skills</a>
-		        <a class="nav-link" href="#portofolio">Portofolio</a>
-		        <a class="nav-link" href="#contact">Contact</a>
-		      </div>
-		    </div>
-	    </div>
-	  </div>
+	<script src="assets/js/aos.js"></script>
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+<!-- navbar section -->
+	<nav class="navbar nav-full navbar-expand-lg fixed-top navbar-dark">
+		<div class="container">
+		<div class="logo d-flex align-items-center" style="height:8vh">
+			<img src="assets/img/logo/logo.png" class="img-fluid me-2" style="height:70%">
+			<b>Suharta</b>
+		</div>
+	
+			<div class="menu collapse navbar-collapse" id="navbarSupportedContent" style="justify-content:center">
+				<ul class="navbar-nav ms-auto">
+					<li class="my-3"><a class="mx-3  p-1 px-2 rounded active" href="#home">Home</a></li>
+					<li class="my-3"><a class="mx-3  p-1 px-2 rounded" href="#about">About</a></li>
+					<li class="my-3"><a class="mx-3  p-1 px-2 rounded" href="#education">Education</a></li>
+					<li class="my-3"><a class="mx-3  p-1 px-2 rounded" href="#skills">Skills</a></li>
+					<li class="my-3"><a class="mx-3  p-1 px-2 rounded" href="#portofolio">Portofolio</a></li>
+				</ul>
+			</div>
+			<a id="theme-toggle" class="togle-theme">
+				<i id="theme-icon" class="bi bi-sun"></i>
+			</a>
+		</div>
 	</nav>
-	<!-- navbar tutup -->
-	<!-- hero -->
-	<section id="hero" class="bg-hero">
-			<div class="container col-9">
-				<div class="row d-flex align-items-center h-hero">
-					<div class="order-lg-2 col-lg-6 d-flex justify-content-center for-img-hero">
-						<img src="assets/img/profile/hero.png" class="img-hero">
-					</div>
-					<div class="order-lg-1 col-lg-6  media-tengah">
-						<h1 class="mt-5 name-font">Hi, I'm <t class="t-biru">Suharta</t></h1>
-						<p class="mb-4 t-sebagai" style="font-size: 20px;">Graphic Designer | Web Devloper</p>
-						<p class="mb-4">Hello, now I teach at Pasundan Subang Vocational School, I teach Productive <b class="t-biru">Software Engineering</b>, I also teach Basic <b class="t-biru">Graphic Design</b>.</p>
-						<div class="row ">
-							<div class="col-6 bb-btn">
-								<a class="btn btn-custom1 col-10 rounded-pill">Let's Talk <i class="fa-solid fa-envelope ms-2"></i></a>
-							</div>
-							<div class="col-6 bb-btn">
-								<a class="btn btn-custom1 col-10 rounded-pill">My CV <i class="fa-solid fa-cloud-arrow-down ms-2"></i></a>
-							</div>
-						</div>
-						<div class="col-lg-12 mt-5 col-12">
-							<a href="https://twitter.com/suharta53841965" type="button" class="btn btn-sosmed rounded-circle"> <i class="fa-brands fa-twitter"></i> </a>
-							<a href="https://web.facebook.com/Suharta16/" type="button" class="btn btn-sosmed rounded-circle"> <i class="fa-brands fa-facebook-f"></i> </a>
-							<a href="https://www.linkedin.com/in/suharta-mass-4870b219a/" type="button" class="btn btn-sosmed rounded-circle"> <i class="fa-brands fa-linkedin"></i> </a>
-							<a href="https://www.instagram.com/suharta_5/" type="button" class="btn btn-sosmed rounded-circle"> <i class="fa-brands fa-instagram"></i> </a>
-						</div>
-					</div>
-				</div>
+	<div class="menu-hp col-12 align-items-center justify-content-around px-3">
+		<a href="#home" class="menu-kecil  p-1 px-2 rounded active"><i class="bi bi-house"></i></a>
+		<a href="#about" class="menu-kecil  p-1 px-2 rounded"><i class="bi bi-person-exclamation"></i></a>
+		<a href="#education" class="menu-kecil  p-1 px-2 rounded"><i class="bi bi-book"></i></a>
+		<a href="#skills" class="menu-kecil  p-1 px-2 rounded"><i class="bi bi-person-gear"></i></a>
+		<a href="#portofolio" class="menu-kecil  p-1 px-2 rounded"><i class="bi bi-briefcase"></i></a>
+	</div>
+<!-- navbar end -->
+
+<!-- hero section -->
+	<div class="container hero">
+		<div class="row">
+			<div class="right order-lg-2 col-lg-6 col-12 d-flex align-items-center justify-content-center py-4" data-aos="fade-left" data-aos-duration="1000">
+				<img src="assets/img/foto/profile.png" alt="" class="col-12 col-lg-11" >
 			</div>
-	</section>
-	<!-- hero tutup -->
-	<!-- about -->
-	<section id="about" class="bg-2">
-		<div class="container col-90"  id="about">
-			<div class="row">
-				<div class="col-12 text-center my-5">
-					<h1>About <t class="t-biru">Me</t></h1>
+			<div class="kiri col-lg-6 col-12 d-flex align-items-center justify-content-center flex-column py-4">
+				<div class="text-perkenalan col-lg-8 col-12" data-aos="fade-right" data-aos-duration="1000">
+					Haloo..
+					<h1>Nama Saya Suharta</h1>
+					Saya seorang pengajar Teknologi Informasi, Web Programmer, Desain Grafis dan, Sistem analis.
 				</div>
-				<div class="col-lg-6 py-5 ">
-					<img src="assets/img/profile/about.png" class="col-8 offset-2 img-about">
-				</div>
-				<div class="col-lg-6 d-flex align-items-center py-5">
-					<p class="col-8 offset-2" style="text-align: justify;">
-						My name is <t class="t-biru">Suharta</t>, I was born in Indramayu. I once studied at the <t class="t-biru">University of Subang</t> majoring in <t class="t-biru">information systems</t>. I often attend <t class="t-biru">web</t> and <t class="t-biru">android programming</t> seminars and workshops, several times I take part in application development projects in teams. at my internship I made book cover designs, banners and made infographics in the form of videos. I did a good job. I am used to operating graphic design applications such as <t class="t-biru">Adobe Photoshop, Adobe Illustrator</t>, and <t class="t-biru">Figma</t>.
-					</p>
-				</div>	
-			</div>
-		</div>		
-	</section>
-	<!-- about tutup -->
-	<!-- education -->
-	<section id="education" class="bg-1">
-		<div class="container col-90">
-			<div class="row">
-				<div class="col-12 text-center my-5">
-					<h1>My <t class="t-biru">Journey</t></h1>
-				</div>
-				<div class="col-12 p-5">
-					<div class="col-12 journey-kurung p-3">
-						<div class="col-8 offset-2">
-							<p class="t-biru"> 2009 - 2012</p>
-							<h4>Gantar 2 Public Middle School</h4>
-							<br>
-							<p class="t-biru"> 2012 - 2015</p>
-							<h4>Pasundan Subang Vocational School</h4>
-							<p class="t-biru"> Software engineering </p>
-							<br>
-							<p class="t-biru"> 2015 - 2019</p>
-							<h4>Subang University</h4>
-							<p class="t-biru"> Information Systems </p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- education end -->
-	<!-- skills -->
-	<section id="skills" class="bg-2">
-		<div class="container col-90">
-			<div class="row">
-				<div class="col-12 text-center my-5">
-					<h1>My <t class="t-biru">Skills</t></h1>
-				</div>
-				<div class="row col-12 d-flex justify-content-center mb-5">
-					<img src="assets/img/skills/css.png" class="col-3 col-lg-1 img-skills mx-2">
-					<img src="assets/img/skills/html.png" class="col-3 col-lg-1 img-skills mx-2">
-					<img src="assets/img/skills/hph.svg" class="col-3 col-lg-1  img-skills mx-2">
-					<img src="assets/img/skills/ai.png" class="col-3 col-lg-1  img-skills mx-2">
-					<img src="assets/img/skills/ps.png" class="col-3 col-lg-1 img-skills mx-2">
-					<img src="assets/img/skills/ae.png" class="col-3 col-lg-1 img-skills mx-2">
-					<img src="assets/img/skills/filmora.png" class="col-3 col-lg-1  img-skills mx-2">
-					<img src="assets/img/skills/office.png" class="col-3 col-lg-1  img-skills mx-2">
-				</div>
-				<div class="col-lg-6 pb-4">
-					<div class="col-12 journey-kurung p-3">
-						<h4 class="offset-1 py-2 t-biru">Hard Skill</h4>
-						<br>
-						<div class="col-8 offset-2">
-							<p>HTML/CSS</p>
-							<p>PHP</p>
-							<p>Graphic Designer</p>
-							<p>UI Designer</p>
-							<p>Microsoft Office</p>
-							
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-6 pb-5">
-					<div class="col-12 journey-kurung p-3">
-						<h4 class="offset-1 py-2 t-biru">Soft Skill</h4>
-						<br>
-						<div class="col-8 offset-2">
-							<p> Problem Solving</p>
-								<p>Time Management</p>
-								<p>Teamwork</p>
-								<p>Hard Work</p>
-								<p>Tenacious</p>
-								<p>friendly</p>
-							
-						</div>
-					</div>
-				</div>	
-			</div>
-		</div>		
-	</section>
-	<!-- skills end -->
-	<!-- portofolio -->
-	<section id="portofolio" class="bg-1">
-		<div class="container col-90">
-			<div class="row">
-				<div class="col-12 text-center my-5">
-					<h1>My <t class="t-biru">Portofolio</t></h1>
-				</div>
-				<div class="row col-12 p-5 d-flex justify-content-center">
-					<img src="assets/img/portofolio/1.png" class="mb-4 col-lg-4 col-md-6 img-porto">
-					<img src="assets/img/portofolio/2.png" class="mb-4 col-lg-4 col-md-6 img-porto">
-					<img src="assets/img/portofolio/3.png" class="mb-4 col-lg-4 col-md-6 img-porto">
-					<img src="assets/img/portofolio/4.png" class="mb-4 col-lg-4 col-md-6 img-porto">
-					<img src="assets/img/portofolio/6.png" class="mb-4 col-lg-4 col-md-6 img-porto">
-					<img src="assets/img/portofolio/5.png" class="mb-4 col-lg-4 col-md-6 img-porto">
-					<img src="assets/img/portofolio/7.png" class="mb-4 col-lg-4 col-md-6 img-porto">
-				</div>
-		</div>
-	</section>
-	<!-- portofolio end -->
-	<!-- contact -->
-	<section id="contact" class="bg-2">
-		<div class="container col-90">
-			<div class="row d-flex justify-content-center">
-				<div class="col-12 text-center my-5">
-					<h1>comtact <t class="t-biru">Me!</t></h1>
-				</div>
-				<div class="row col-12 d-flex justify-content-around">
-					<input type="text" class="col-lg-5 journey-kurung p-4 my-4" placeholder="Input Name">
-					
-					<input type="email" class="col-lg-5 journey-kurung p-4 my-4" placeholder="Input Email">
+				<div class="cv col-lg-8 col-12 mt-5" data-aos-delay="150" data-aos="fade-right" data-aos-duration="900">
+					<a href="https://drive.usercontent.google.com/download?id=1gRss_gCIkMas-dAR29pLTCcmYe3i6py0&export=download&authuser=0&confirm=t&uuid=c9e31b42-73c2-429e-b398-2884be345c8d&at=AN_67v0verF45Ya_0eIqa8-7DaKR:1730212160572" class="btn btn-main-rounded-l text-light"><i class="bi bi-file-earmark-person"></i> Download CV</a>
 					
 				</div>
-				<textarea class="col-11 journey-kurung p-4 m-3 " placeholder="Input your massage"></textarea>
-				<button class="col-lg-3 col-6 col-md-5 btn btn-primary rounded-pill mb-5" style="height:10vh">Submit</button>
+				
 			</div>
 		</div>
-	</section>
-	<!-- contact end -->
-	<!-- footer -->
-	<section id="education" class="bg-1">
-		<div class="container col-90">
-			<div class="row d-flex justify-content-center">
-				<div class="col-12 text-center my-5">
-					<p>Created wiht<i class="fa-solid fa-heart" style="color:tomato;"></i> by Suharta</p>
+	</div>
+<!-- hero end -->
+
+<!-- about section -->
+	<div class="about container">
+		<div style="height: 10vh;"></div>
+		<div class="col-12 judul text-center" data-aos="fade-down" data-aos-duration="700">
+			<h2>About Me</h2>
+		</div>
+		<div class="row">
+			<div class="left col-lg-5 d-flex align-items-center justify-content-center" data-aos="fade-right" data-aos-duration="700">
+				<img src="assets/img/foto/about.png" alt="" class="col-11 col-lg-10 rounded py-4">
+			</div>
+			<div class="right col-lg-7 col-12 d-flex align-items-center justify-content-center flex-column" data-aos="fade-left" data-aos-duration="700">
+				<div class="text-about col-11 py-4" style="white-space: pre-wrap; text-align: justify;">	Saya adalah pendidik dan pengembang aplikasi dengan lebih dari tiga tahun pengalaman di bidang teknologi informasi dan pengajaran. Lulusan Universitas Subang, saya mulai karier di Badan Pusat Statistik (BPS), mengembangkan aplikasi untuk penentuan mitra kerja. Sejak 2020, saya mengajar di SMK Swasta sebagai guru kejuruan PPLG dan sejak 2022 saya menjabat sebagai Kepala Program Keahlian PPLG dan TJKT.
+
+	Dengan keahlian dalam desain grafis, pengeditan video, dan pemrograman web serta mobile, saya berkomitmen untuk memberikan pengalaman belajar yang interaktif dan relevan bagi siswa. Saya juga menikmati membuat prompt AI yang kreatif dan inovatif, saya percaya bahwa teknologi adalah kunci inovasi dalam pendidikan dan bertekad untuk mempersiapkan generasi muda menghadapi era digital.
+				</div>
+				<div class="col-11">
+					<div class="bg-main p-3 d-flex align-items-center justify-content-around" style="font-size: 20px;">
+						<i class="bi bi-vector-pen"></i>
+						<i class="bi bi-camera-reels"></i>
+						<i class="bi bi-code-slash"></i>
+						<i class="bi bi-person-video3"></i>
+						<i class="bi bi-pc-display"></i>
+						<i class="bi bi-robot"></i>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+<!-- about end -->
+
+<!-- education section -->
+<div class="education container">
+	<div style="height: 10vh;"></div>
+	<div class="col-12 judul text-center" data-aos="fade-down" data-aos-duration="700">
+		<h2>Education Me</h2>
+	</div>
+	<div class="py-5">
+		<div class="isi">
+			<div class="timeline">
+				<div class="wadahbulet">
+					<div class="bulat">
+						<div class="untuktext" data-aos="fade-right" data-aos-duration="700">
+							<b>SMP Negeri 2 Gantar</b>
+							<p>Sekolah Umum</p>
+							<small>2009 - 2012</small>
+						</div>
+					</div>
+					<div class="bulat kanan" >
+						<div class="untuktext kanan" data-aos="fade-left" data-aos-duration="700">
+							<b>SMK Pasundan Subang</b>
+							<p>Rekayasa Perangkat Lunak</p>
+							<small>2012 - 2015</small>
+						</div>
+					</div>
+					<div class="bulat">
+						<div class="untuktext"  data-aos="fade-right" data-aos-duration="700">
+							<b>Universitas Subang</b>
+							<p>Sistem Informasi</p>
+							<small>2015 - 2019</small>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-	</section>
-	<!-- footer end -->
+	</div>
+</div>
+<!-- education end -->
+
+<!-- skills section -->
+<div class="skills container" style="min-height: 100vh;">
+	<div style="height: 10vh;"></div>
+	<div class="col-12 judul text-center" data-aos="fade-down" data-aos-duration="700">
+		<h2>My Skills</h2>
+	</div>
+	<div class="row">
+		<div class="left col-lg-4 offset-lg-2 d-flex align-items-center justify-content-start flex-column pt-5" data-aos="fade-right" data-aos-duration="700">
+			  <p class="d-inline-flex gap-1">
+				<a data-bs-toggle="collapse" href="#FronedDevrloper" role="button" aria-expanded="false" aria-controls="FronedDevrloper">
+				  	<h5 class="bg-main px-3 py-2 col-10 d-flex justify-content-between">
+					<i class="bi bi-journal-code"></i> Frontend Developer
+					</h5>
+				</a>
+			  </p>
+			  <div class="collapse col-10 pt-4" id="FronedDevrloper">
+				<div class="col-12 d-flex align-items-center justify-content-between">
+					<p class="bg-main">HTML</p>
+					<p style="opacity: 50%;">Advance</p>
+				</div>
+				<div class="col-12 d-flex align-items-center justify-content-between">
+					<p class="bg-main">CSS</p>
+					<p style="opacity: 50%;">Advance</p>
+				</div>
+				<div class="col-12 d-flex align-items-center justify-content-between">
+					<p class="bg-main">Bootstrap</p>
+					<p style="opacity: 50%;">Advance</p>
+				</div>
+				<div class="col-12 d-flex align-items-center justify-content-between">
+					<p class="bg-main">JavaScript</p>
+					<p style="opacity: 50%;">Intermedient</p>
+				</div>
+				<div class="col-12 d-flex align-items-center justify-content-between">
+					<p class="bg-main">React</p>
+					<p style="opacity: 50%;">Intermedient</p>
+				</div>
+				<div class="line-main mb-3"></div>
+			  </div>
+			  <p class="d-inline-flex gap-1">
+				<a data-bs-toggle="collapse" href="#backEnd" role="button" aria-expanded="false" aria-controls="backEnd">
+				  <h5 class="bg-main px-3 py-2 col-10"><i class="bi bi-file-earmark-code"></i> Backend Developer</h5>
+				</a>
+			  </p>
+			  <div class="collapse col-10 pt-4" id="backEnd">
+				<div class="col-12 d-flex align-items-center justify-content-between">
+					<p class="bg-main">PHP</p>
+					<p style="opacity: 50%;">Advance</p>
+				</div>
+				<div class="col-12 d-flex align-items-center justify-content-between">
+					<p class="bg-main">CodeIgniter</p>
+					<p style="opacity: 50%;">Intermedient</p>
+				</div>
+				<div class="col-12 d-flex align-items-center justify-content-between">
+					<p class="bg-main">Laravel</p>
+					<p style="opacity: 50%;">Intermedient</p>
+				</div>
+				<div class="col-12 d-flex align-items-center justify-content-between">
+					<p class="bg-main">NodeJS</p>
+					<p style="opacity: 50%;">Intermedient</p>
+				</div>
+				<div class="col-12 d-flex align-items-center justify-content-between">
+					<p class="bg-main">DB Mysql</p>
+					<p style="opacity: 50%;">Intermedient</p>
+				</div>
+				<div class="line-main mb-3"></div>
+			  </div>
+		</div>
+		<div class="right col-lg-4 col-12 d-flex align-items-center justify-content-start flex-column pt-5" data-aos="fade-left" data-aos-duration="700">
+			  <p class="d-inline-flex gap-1">
+				<a data-bs-toggle="collapse" href="#DesainGrafis" role="button" aria-expanded="false" aria-controls="DesainGrafis">
+				  <h5 class="bg-main px-3 py-2 col-10"><i class="bi bi-vector-pen"></i> Desain Grafis</h5>
+				</a>
+			  </p>
+			  <div class="collapse col-10 pt-4" id="DesainGrafis">
+				<div class="col-12 d-flex align-items-center justify-content-between">
+					<p class="bg-main">Adobe Photoshop</p>
+					<p style="opacity: 50%;">Advance</p>
+				</div>
+				<div class="col-12 d-flex align-items-center justify-content-between">
+					<p class="bg-main">Adobe Illustrator</p>
+					<p style="opacity: 50%;">Intermedient</p>
+				</div>
+				<div class="col-12 d-flex align-items-center justify-content-between">
+					<p class="bg-main">Adobe XD</p>
+					<p style="opacity: 50%;">Intermedient</p>
+				</div>
+				<div class="col-12 d-flex align-items-center justify-content-between">
+					<p class="bg-main">Figma</p>
+					<p style="opacity: 50%;">Intermedient</p>
+				</div>
+				<div class="col-12 d-flex align-items-center justify-content-between">
+					<p class="bg-main">Canva</p>
+					<p style="opacity: 50%;">Advance</p>
+				</div>
+				<div class="line-main mb-3"></div>
+			  </div>
+			  <p class="d-inline-flex gap-1">
+				<a data-bs-toggle="collapse" href="#VideoEditing" role="button" aria-expanded="false" aria-controls="VideoEditing">
+				  <h5 class="bg-main px-3 py-2 col-10"><i class="bi bi-camera-reels"></i> Video Editing</h5>
+				</a>
+			  </p>
+			  <div class="collapse col-10 pt-4" id="VideoEditing">
+				<div class="col-12 d-flex align-items-center justify-content-between">
+					<p class="bg-main">Adobe Premier Pro</p>
+					<p style="opacity: 50%;">Intermedient</p>
+				</div>
+				<div class="col-12 d-flex align-items-center justify-content-between">
+					<p class="bg-main">Adobe Animate</p>
+					<p style="opacity: 50%;">Basic</p>
+				</div>
+				<div class="col-12 d-flex align-items-center justify-content-between">
+					<p class="bg-main">Wondershare Filmora</p>
+					<p style="opacity: 50%;">Advance</p>
+				</div>
+				<div class="col-12 d-flex align-items-center justify-content-between">
+					<p class="bg-main">CapCut</p>
+					<p style="opacity: 50%;">Intermedient</p>
+				</div>
+				<div class="line-main mb-3"></div>
+			  </div>
+		</div>
+		</div>
+	</div>
+</div>
+<!-- about end -->
 
 </body>
-
-<script type="text/javascript" src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-
 </html>
 
-<script>
-    window.onscroll = function() {scrollFunction()};
- 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    
-    document.getElementById("navbar").style.background = "#2A3340";
-  } else {
-   
-    document.getElementById("navbar").style.background = "none";
-  }
-}
-</script>
+<script src="assets/js/myjs.js"></script>

@@ -1,0 +1,229 @@
+
+
+.btn-main{
+	background-color: var(--acsen-color) !important;
+	text-decoration: none !important;
+	color: #eeeeee;
+}
+
+.line-main{
+	background-color: var(--acsen-color) !important;
+	border-radius: 10px;
+	padding: 3px;
+}
+
+.bg-main{
+	background-color: var(--acsen-color) !important;
+	text-decoration: none !important;
+	color: #eeeeee;
+	border-radius: 10px;
+	padding: 7px;
+}
+
+p{
+	color: var(--text-color);
+}
+
+.btn-main-rounded-l{
+	background-color: var(--acsen-color) !important;
+	text-decoration: none !important;
+	color: #eeeeee;
+	border-radius: 15px;
+	padding: 15px;
+}
+
+body{
+    background-color: var(--main-color);
+	overflow-x: hidden;
+}
+
+.nav-full{
+	background-color: var(--main-transparent);
+	backdrop-filter: blur(10px);
+}
+
+.logo b{
+    color: var(--text-color);
+}
+
+.menu ul li a{
+	text-decoration: none !important;
+	font-weight: 450;
+	color: var(--text-color) !important;
+}
+
+.togle-theme{
+	text-decoration: none !important;
+	font-weight: 450;
+	color: var(--text-color) !important;
+}
+
+.active{
+	background-color: var(--acsen-transparent) !important;
+	color:#eeeeee !important;
+}
+
+.hero{
+    padding-top: 12vh;
+}
+
+.text-perkenalan{
+	color:var(--text-color);
+}
+
+.text-perkenalan h1{
+	color: var(--acsen-color);
+	font-weight: 800 !important;
+	font-size: 60px;
+}
+
+
+.menu-hp{
+
+	display: none;
+}
+
+.text-about{
+	color:var(--text-color);
+}
+
+.judul{
+	color: var(--acsen-color);
+}
+
+/*education start*/
+
+.education{
+	height: 100vh;
+}
+
+.education .isi{
+	height: 80vh;
+	width: 100%;
+	padding-top: 70px;
+	padding-bottom: 50px;
+	display: flex;
+	justify-content: center;
+
+}
+
+.education .isi .timeline{
+	height: 100%;
+	width: 3px;
+	background-color: var(--acsen-color);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.education .isi .timeline .wadahbulet{
+	height: 100%;
+	width: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.education .isi .timeline .wadahbulet .bulat{
+	height: 12px;
+	width: 12px;
+	background-color: var(--acsen-color);
+	border-radius: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+	justify-content: center;
+}
+
+.education .isi .timeline .wadahbulet .kanan{
+	align-items: start;
+}
+
+.education .untuktext{
+	width: 50vw;
+	display: flex;
+	flex-direction: column;
+	align-items: end;
+	justify-content: end;
+	padding-right: 70px;
+	padding-left: 70px;
+	text-align: end;
+	color: var(--text-color);
+}
+
+.education .isi .timeline .wadahbulet .untuktext .kanan{
+	justify-content: start;
+	text-align: start;
+}
+
+/*education end*/
+
+a{
+	text-decoration: none !important;
+	font-weight: 600;
+	color: #eeee !important;
+}
+
+@media only screen and (max-width: 600px) {
+	.text-perkenalan{
+		color:var(--text-color);
+		padding: 0px 15px;
+	}
+
+	.text-perkenalan h1{
+		color: var(--acsen-color);
+		font-weight: 800 !important;
+		font-size: 50px;
+	}
+
+	.togle-theme{
+		text-decoration: none !important;
+		font-weight: 450;
+		color: var(--text-color) !important;
+		font-size: 25px;
+	}
+
+	.menu-hp{
+		display: flex;
+		height: 75px;
+		background-color: var(--main-color);
+		position: fixed;
+		bottom: 0px;
+		z-index: 3;
+		color: var(--text-color) !important;
+	}
+
+	.menu-kecil{
+		text-decoration: none !important;
+		color: var(--text-color) !important;
+		font-size:large;
+	}
+
+	.hero{
+		padding-top: 7vh;
+	}
+
+	.cv{
+		display: flex;
+		justify-content: center;
+	}
+
+	.education .isi{
+		justify-content: start;
+		padding-left: 15px;
+	}
+
+	.education .untuktext{
+		width: 80vw;
+		justify-content: start;
+		text-align: start;
+		align-items: start;
+	}
+
+	.education .isi .timeline .wadahbulet .bulat{
+		align-items: start;
+		
+	}
+
+}
